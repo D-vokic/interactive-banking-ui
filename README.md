@@ -35,6 +35,7 @@ You can view a live demo of this project [here](https://d-vokic.github.io/intera
 - Auto logout after a period of inactivity
 - Dynamic DOM manipulation using JavaScript
 - Clean and responsive user interface
+- 🌙🔆 **Dark/Light mode toggle**
 
 ## 🛠️ Technologies Used
 
@@ -43,7 +44,7 @@ You can view a live demo of this project [here](https://d-vokic.github.io/intera
 - ✅ JavaScript (Vanilla JS – no frameworks)
 
 ## 📁 Project Structure
-
+<pre>
 interactive-banking-ui/
 - ├── css/
   - │ └── style.css
@@ -58,6 +59,7 @@ interactive-banking-ui/
 - ├── LICENSE.md
 - ├── screenshot.png
 - └── README.md
+</pre>
 
 ### Getting Started
 
