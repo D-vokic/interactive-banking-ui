@@ -6,7 +6,7 @@
 
 ## Demo
 
-You can view a live demo of this project  [here](https://d-vokic.github.io/interactive-banking-ui/).
+You can view a live demo of this project [here](https://d-vokic.github.io/Awesome-Music-Player/).
 
 ## Table of Contents
 
@@ -35,20 +35,6 @@ You can view a live demo of this project  [here](https://d-vokic.github.io/inter
 - Auto logout after a period of inactivity
 - Dynamic DOM manipulation using JavaScript
 - Clean and responsive user interface
-- 🌙🔆 **Dark/Light mode toggle**
-
-## 🧪 Demo Users
-
-You can log in using one of the following predefined user credentials:
-
-| User # | USER | PIN   |
-|--------|----------|-------|
-| 1️⃣     | `js`     | `1111` |
-| 2️⃣     | `jd`     | `2222` |
-| 3️⃣     | `ah`     | `3333` |
-| 4️⃣     | `dv`     | `4444` |
-
-> Each account simulates a separate bank user with unique transaction data and balance.
 
 ## 🛠️ Technologies Used
 
@@ -57,22 +43,21 @@ You can log in using one of the following predefined user credentials:
 - ✅ JavaScript (Vanilla JS – no frameworks)
 
 ## 📁 Project Structure
-<pre>
+
 interactive-banking-ui/
 ├── css/
-  │ └── style.css
+│ └── style.css
 ├── img/
-  │ ├── bank.png
-  │ └── soho.webp
+│ ├── bank.png
+│ └── soho.webp
 ├── js/
-  │ └── script.js
+│ └── script.js
 ├── .gitignore
 ├── .prettierrc
 ├── index.html
 ├── LICENSE.md
 ├── screenshot.png
 └── README.md
-</pre>
 
 ### Getting Started
 
@@ -90,23 +75,10 @@ What things you need to install the software and how to install them:
 2. Navigate to the project directory:
 3. Open `index.html` in your browser.
 
-## 📌 Usage
+## Usage
 
-1. Open the app in your browser (open `index.html`).
-2. Log in using one of the predefined user accounts:
-
-   - Example: Username: `js`, PIN: `1111`
-
-3. After logging in, you can:
-   - View your transaction history
-   - Check your account balance and summary
-   - Transfer money to another demo user by entering their username and amount
-   - Sort transactions using the "Sort" button
-   - Toggle between **Light and Dark Mode** (🌙 / 🔆)
-4. The app will **automatically log you out** after a period of inactivity (for demonstration).
-5. All data is stored in JavaScript memory and **resets on page reload** — there is no server or database.
-
-> This project is intended for learning and UI/UX demonstration purposes.
+1. Use the play/pause button to play or pause the track.
+2. Use the next and previous buttons to change tracks.
 
 ## Built With
 
