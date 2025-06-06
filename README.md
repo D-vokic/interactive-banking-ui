@@ -45,19 +45,19 @@ You can view a live demo of this project [here](https://d-vokic.github.io/intera
 ## 📁 Project Structure
 
 interactive-banking-ui/
-- ├── css/
+├── css/
 - │ └── style.css
-- ├── img/
+├── img/
 - │ ├── bank.png
 - │ └── soho.webp
-- ├── js/
+├── js/
 - │ └── script.js
-- ├── .gitignore
-- ├── .prettierrc
-- ├── index.html
-- ├── LICENSE.md
-- ├── screenshot.png
-- └── README.md
+├── .gitignore
+├── .prettierrc
+├── index.html
+├── LICENSE.md
+├── screenshot.png
+└── README.md
 
 ### Getting Started
 
