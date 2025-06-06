@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Smartbank</title>
+
+    <!-- Meta tags -->
+    <meta name="author" content="Dusko Vokic" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, Smart Banking, Interactive-banking-ui App, Dark Mode, Light Mode"
+    />
+    <meta name="description" content="Interactive-banking-ui App" />
+    <meta name="generator" content="Visual Studio Code" />
+    <meta name="title" content="Interactive-banking-ui App" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/bank.png" />
+
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome CDN link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- TOP NAVIGATION -->
+    <nav>
+      <p class="welcome">Smart Banking for All</p>
+      <a href="https://duskovokic.com/" target="_blank">
+        <img src="img/soho.webp" alt="Logo" class="logo" />
+      </a>
+      <form class="login">
+        <input
+          type="text"
+          placeholder="user"
+          class="login__input login__input--user"
+        />
+        <!-- In practice, use type="password" -->
+        <input
+          type="text"
+          placeholder="PIN"
+          maxlength="4"
+          class="login__input login__input--pin"
+        />
+        <button class="login__btn"><i class="fas fa-sign-in-alt"></i></button>
+      </form>
+      <!-- Dark/light mode section starts -->
+      <div class="all">
+        <!-- Dark Mode Switch starts-->
+        <div class="theme-switch-wrapper">
+          <span id="toggle-icon">
+            <i class="fas fa-sun"></i>
+          </span>
+          <label class="theme-switch">
+            <input type="checkbox" />
+            <div class="slider round"></div>
+          </label>
+        </div>
+        <!-- Dark Mode Switch ends-->
+      </div>
+    </nav>
+
+    <!-- HEADER STARTS -->
+    <header class="between">
+      <div class="between_header">
+        <h1 class="between_header_h1">Welcome to Interactive-banking-ui App</h1>
+      </div>
+    </header>
+    <!-- HEADER ENDS -->
+
+    <!-- HEADER IMAGE STARTS -->
+    <a href="https://duskovokic.com/" target="_blank">
+      <img
+        src="img/soho.webp"
+        alt="Bankist Illustration"
+        class="header-image"
+      />
+    </a>
+    <!-- HEADER IMAGE ENDS -->
+
+    <main class="app">
+      <!-- BALANCE -->
+      <div class="balance">
+        <div>
+          <p class="balance__label">Current balance</p>
+          <p class="balance__date">
+            Date && Time <span class="date">05/03/2037</span>
+          </p>
+        </div>
+        <p class="balance__value">0000€</p>
+      </div>
+
+      <!-- MOVEMENTS -->
+      <div class="movements">
+        <div class="movements__row">
+          <div class="movements__type movements__type--deposit">2 deposit</div>
+          <div class="movements__date">3 days ago</div>
+          <div class="movements__value">4 000€</div>
+        </div>
+        <div class="movements__row">
+          <div class="movements__type movements__type--withdrawal">
+            1 withdrawal
+          </div>
+          <div class="movements__date">24/01/2037</div>
+          <div class="movements__value">-378€</div>
+        </div>
+      </div>
+
+      <!-- SUMMARY -->
+      <div class="summary">
+        <p class="summary__label">In</p>
+        <p class="summary__value summary__value--in">0000€</p>
+        <p class="summary__label">Out</p>
+        <p class="summary__value summary__value--out">0000€</p>
+        <p class="summary__label">Interest</p>
+        <p class="summary__value summary__value--interest">0000€</p>
+        <button class="btn--sort">&downarrow; SORT</button>
+      </div>
+
+      <!-- OPERATION: TRANSFERS -->
+      <div class="operation operation--transfer">
+        <h2>Transfer money</h2>
+        <form class="form form--transfer">
+          <input type="text" class="form__input form__input--to" />
+          <input type="number" class="form__input form__input--amount" />
+          <button class="form__btn form__btn--transfer">&rarr;</button>
+          <label class="form__label">Transfer to</label>
+          <label class="form__label">Amount</label>
+        </form>
+      </div>
+
+      <!-- OPERATION: LOAN -->
+      <div class="operation operation--loan">
+        <h2>Request loan</h2>
+        <form class="form form--loan">
+          <input type="number" class="form__input form__input--loan-amount" />
+          <button class="form__btn form__btn--loan">&rarr;</button>
+          <label class="form__label form__label--loan">Amount</label>
+        </form>
+      </div>
+
+      <!-- OPERATION: CLOSE -->
+      <div class="operation operation--close">
+        <h2>Close account</h2>
+        <form class="form form--close">
+          <input type="text" class="form__input form__input--user" />
+          <input
+            type="password"
+            maxlength="6"
+            class="form__input form__input--pin"
+          />
+          <button class="form__btn form__btn--close">&rarr;</button>
+          <label class="form__label">Confirm user</label>
+          <label class="form__label">Confirm PIN</label>
+        </form>
+      </div>
+
+      <!-- progress bar -->
+      <div class="logout-timer-container">
+        <label for="logoutProgress">Auto-logout in:</label>
+        <progress
+          id="logoutProgress"
+          class="logout-progress"
+          value="0"
+          max="100"
+        ></progress>
+      </div>
+
+      <!-- LOGOUT TIMER -->
+      <p class="logout-timer">
+        You will be logged out in <span class="timer">05:00</span>
+      </p>
+    </main>
+
+    <footer class="app-footer">
+      &copy; Designed by
+      <span class="footer-span">Dusko Vokic</span>
+    </footer>
+
+    <div id="notification" class="notification"></div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
