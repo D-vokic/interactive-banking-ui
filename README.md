@@ -41,7 +41,7 @@ You can view a live demo of this project  [here](https://d-vokic.github.io/inter
 
 You can log in using one of the following predefined user credentials:
 
-| User # | Username | PIN   |
+| User # | USER | PIN   |
 |--------|----------|-------|
 | 1️⃣     | `js`     | `1111` |
 | 2️⃣     | `jd`     | `2222` |
