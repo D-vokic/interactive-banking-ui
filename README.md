@@ -46,12 +46,12 @@ You can view a live demo of this project [here](https://d-vokic.github.io/intera
 
 interactive-banking-ui/
 - ├── css/
-  │ └── style.css
+  - │ └── style.css
 - ├── img/
-  │ ├── bank.png
-  │ └── soho.webp
+  - │ ├── bank.png
+  - │ └── soho.webp
 - ├── js/
-  │ └── script.js
+  - │ └── script.js
 - ├── .gitignore
 - ├── .prettierrc
 - ├── index.html
