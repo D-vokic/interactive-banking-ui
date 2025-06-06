@@ -6,7 +6,7 @@
 
 ## Demo
 
-You can view a live demo of this project [here](https://d-vokic.github.io/interactive-banking-ui/).
+You can [here] view a live demo of this project (https://d-vokic.github.io/interactive-banking-ui/).
 
 ## Table of Contents
 
