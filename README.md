@@ -37,6 +37,19 @@ You can view a live demo of this project [here](https://d-vokic.github.io/intera
 - Clean and responsive user interface
 - 🌙🔆 **Dark/Light mode toggle**
 
+## 🧪 Demo Users
+
+You can log in using one of the following predefined user credentials:
+
+| User # | Username | PIN   |
+|--------|----------|-------|
+| 1️⃣     | `js`     | `1111` |
+| 2️⃣     | `jd`     | `2222` |
+| 3️⃣     | `ah`     | `3333` |
+| 4️⃣     | `dv`     | `4444` |
+
+> Each account simulates a separate bank user with unique transaction data and balance.
+
 ## 🛠️ Technologies Used
 
 - ✅ HTML5
