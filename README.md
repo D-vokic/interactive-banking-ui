@@ -90,10 +90,23 @@ What things you need to install the software and how to install them:
 2. Navigate to the project directory:
 3. Open `index.html` in your browser.
 
-## Usage
+## 📌 Usage
 
-1. Use the play/pause button to play or pause the track.
-2. Use the next and previous buttons to change tracks.
+1. Open the app in your browser (open `index.html`).
+2. Log in using one of the predefined user accounts:
+
+   - Example: Username: `js`, PIN: `1111`
+
+3. After logging in, you can:
+   - View your transaction history
+   - Check your account balance and summary
+   - Transfer money to another demo user by entering their username and amount
+   - Sort transactions using the "Sort" button
+   - Toggle between **Light and Dark Mode** (🌙 / 🔆)
+4. The app will **automatically log you out** after a period of inactivity (for demonstration).
+5. All data is stored in JavaScript memory and **resets on page reload** — there is no server or database.
+
+> This project is intended for learning and UI/UX demonstration purposes.
 
 ## Built With
 
