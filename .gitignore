@@ -82,3 +82,15 @@ $RECYCLE.BIN/
 *.crdownload
 *.swo
 *.swp
+
+# Ignore any folder named 'backup' at any level
+**/backup/
+
+# Ignore any file that ends with .backup (e.g. index.html.backup)
+*.backup
+
+# Ignore any file that starts with 'backup'
+backup*
+
+# Ignore any file or folder that contains 'backup' in the name
+*backup*
