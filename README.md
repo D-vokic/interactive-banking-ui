@@ -6,7 +6,7 @@
 
 ## Demo
 
-You can view a live demo of this project [here](https://d-vokic.github.io/Awesome-Music-Player/).
+You can view a live demo of this project [here](https://d-vokic.github.io/interactive-banking-ui/).
 
 ## Table of Contents
 
