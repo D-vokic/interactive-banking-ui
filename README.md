@@ -43,7 +43,7 @@ You can view a live demo of this project [here](https://d-vokic.github.io/Awesom
 - ✅ JavaScript (Vanilla JS – no frameworks)
 
 ## 📁 Project Structure
-
+```
 interactive-banking-ui/
 ├── css/
 │ └── style.css
@@ -58,7 +58,7 @@ interactive-banking-ui/
 ├── LICENSE.md
 ├── screenshot.png
 └── README.md
-
+```
 ### Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
